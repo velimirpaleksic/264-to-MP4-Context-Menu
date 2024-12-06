@@ -1,4 +1,3 @@
-
 # Add/Remove Context Menu for `.264` File Conversion to `.mp4`
 
 This repository contains two `.reg` files for modifying the Windows context menu to add or remove an option for converting `.264` video files to `.mp4` using FFmpeg.
@@ -48,18 +47,6 @@ The conversion process relies on [FFmpeg](https://ffmpeg.org/), a powerful comma
 1. Double-click the `remove-from-context-menu.reg` file.
 2. Click **Yes** when prompted to modify the Registry.
 3. The "Convert to MP4" option will no longer appear in the context menu for `.264` files.
-
----
-
-## How It Works
-
-- The `add-to-context-menu.reg` file creates a context menu entry for `.264` files.
-- When you right-click a `.264` file and select "Convert to MP4," it runs the following FFmpeg command:
-  ```
-  ffmpeg.exe -i "input.264" -c:v copy "input.mp4"
-  ```
-  - `"%1"`: Refers to the full path of the selected `.264` file.
-  - `"%~dpn1.mp4"`: Automatically sets the output file name and location, replacing the `.264` extension with `.mp4`.
 
 ---
 
