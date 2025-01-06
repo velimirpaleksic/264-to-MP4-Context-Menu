@@ -52,10 +52,6 @@ The conversion process relies on [FFmpeg](https://ffmpeg.org/), a powerful comma
 ## **Disclaimer**
 Use these `.reg` files with caution. Always back up your Registry before applying changes. The author is not responsible for any issues caused by modifying the Registry.
 
-## **Bugs & features** 🧩
-- [Report bug](https://github.com/velimirpaleksic/portfolio/issues)
-- [Request Feature](https://github.com/velimirpaleksic/portfolio/issues)
-
 ## **Contact** ✉
 - E-mail: [velimir.paleksic@gmail.com](velimir.paleksic@gmail.com).
 - VexSystems GitHub: [github.com/vexsystems](https://github.com/vexsystems).
